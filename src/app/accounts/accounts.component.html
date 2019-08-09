@@ -1,0 +1,135 @@
+<!-- navbar for home and accounts  routing-->
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a routerLink="/home">Home</a></li>
+      <li class="breadcrumb-item active" aria-current="page">Accounts</li>
+    </ol>
+  </nav>
+<!-- end of navbar -->
+
+ <!-- container fo the whole chart -->
+<div class="container">
+    <div id="head" class="row">
+        <div class="col-md-8">  
+            <h3 id="headTitle">Chart of Accounts</h3>
+        </div>
+        <!--Add Group and Add Ledger buttons div -->
+        <div class="buttons col-md-4 ml-auto">
+            <button type="button" class="btn btn-success" data-toggle="modal" data-target=".addGroup" (click)='resetForm()' >Add Group</button>
+            <button type="button" class="btn btn-success"data-toggle="modal" data-target=".addLedger" (click)='resetForm()' >Add Ledger</button>
+        </div>
+
+        <!-- 'Add Group' Modal -->
+        <div class="modal fade addGroup" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title">Add Group</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+
+                    <!-- 'Add Group' form inside modal -->
+                    <form [formGroup]="addGroupForm" class="login-form col-xl" (ngSubmit)="onSubmitGroup()" >
+                      <div class="modal-body">
+                          <div class="form-row">
+                            <!-- 'Group Name'input -->
+                              <div class="form-group col-md-4">
+                                <label for="groupNameInput"> <strong> Group Name </strong> </label>
+                                <input formControlName="groupName" type="text" class="form-control" id="groupNameInput" placeholder="Group Name">
+                                <!-- 'Group Name' validation -->
+                                <div *ngIf="submittedGroup && f.groupName.errors" class="invalid-feedback">
+                                    <div *ngIf="f.groupName.errors.required">Group Name is required</div>
+                                  </div>
+                              </div>
+
+                              <!-- 'Group Code' input -->
+                              <div class="form-group col-md-4">
+                                <label for="groupCodeInput"> <strong>Group Code </strong> (optional)</label>
+                                <input formControlName="groupCode" type="text" class="form-control" id="groupCodeInput" placeholder="Group Code">
+                              </div>
+
+                              <!-- 'ng-select2 input' -->
+                              <div class="form-group col-md-4">
+                                  <label for="inputPassword4"> <strong>Group </strong> (optional)</label>
+                                  <ng-select2 placeholder="Group Label" formControlName="selectInput" width="100%" [data]=labels >  </ng-select2>
+                              </div>
+                                
+                            </div>
+                        </div>
+                        <!-- form buttons -->
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Close</button>
+                          <button type="submit" class="btn btn-primary" >Add Group</button>
+                        </div>
+                    </form>
+                  <!-- end of 'Add Group' form inside modal -->
+                  </div>
+                </div>
+        </div>
+        <!-- 'Add Group' Modal end -->
+  
+        <!-- 'Add Ledger' Modal -->
+        <div class="modal fade addLedger" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title">Add Ledger</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+
+                  <!-- 'Add Group' form inside modal -->
+                  <form [formGroup]="addLedgerForm" class="login-form col-xl" (ngSubmit)="onSubmitLedger()" >
+                    <div class="modal-body">
+                        <div class="form-row">
+                          <!-- 'Group Name'input -->
+                            <div class="form-group col-md-4">
+                              <label for="ledgerNameInput"> <strong> Ledger Name </strong> </label>
+                              <input formControlName="ledgerName" type="text" class="form-control" id="groupNameInput" placeholder="Ledger Name">
+                              <!-- 'Group Name' validation -->
+                              <div *ngIf="submittedLedger && g.ledgerName.errors" class="invalid-feedback">
+                                  <div *ngIf="g.ledgerName.errors.required">Ledger Name is required</div>
+                                </div>
+                            </div>
+
+                            <!-- 'Group Code' input -->
+                            <div class="form-group col-md-4">
+                              <label for="groupCodeInput"> <strong>Ledger Code </strong> (optional)</label>
+                              <input formControlName="ledgerCode" type="text" class="form-control" id="groupCodeInput" placeholder="Ledger Code">
+                            </div>
+
+                            <!-- 'ng-select2 input' -->
+                            <div class="form-group col-md-4">
+                                <label for="inputPassword4"> <strong>Ledger </strong> (optional)</label>
+                                <ng-select2  placeholder="Ledger Label" formControlName="selectInput" width="100%" [data]="labels" >  </ng-select2>
+                            </div>
+                              
+                          </div>
+                      </div>
+                      <!-- form buttons -->
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Close</button>
+                        <button type="submit" class="btn btn-primary" >Add Ledger</button>
+                      </div>
+                  </form>
+                <!-- end of 'Add Group' form inside modal -->
+                </div>
+              </div>
+        </div>
+        <!-- 'Add Group' Modal end -->
+
+
+    </div>
+
+    <!-- Tree View -->
+    <div class="jumbotron">
+          <div id="tree"></div>
+    </div>
+
+  </div>
+  
+  
+  

@@ -1,0 +1,494 @@
+[
+    {
+       "label":"[ 1000000000 ] Assets\t\t\t\t",
+       "value":221,
+       "children":[
+          {
+             "label":"[ 1100000000 ] Current Assets\t",
+             "value":7,
+             "children":[
+                {
+                   "label":"[ 1110000000 ] Cash and cash equivalents",
+                   "value":200,
+                   "children":[
+                      {
+                         "label":"[ 1111000000 ] Banks Accounts",
+                         "value":123,
+                         "children":[
+                            {
+                               "label":"[ 1111100000 ] Cib Acount No. 1234 (EGP)",
+                               "value":226,
+                               "children":[
+ 
+                               ]
+                            },
+                            {
+                               "label":"[ 1111100000 ] Cib Acount No. 2356 (USD)",
+                               "value":292,
+                               "children":[
+ 
+                               ]
+                            },
+                            {
+                               "label":"[ 1111100000 ] ADIB Account No. 89765 (EGP)",
+                               "value":301,
+                               "children":[
+ 
+                               ]
+                            }
+                         ]
+                      },
+                      {
+                         "label":"[ 1111000000 ] Commercial paper",
+                         "value":224,
+                         "children":[
+                            {
+                               "label":"[ 1111000001 ] paypal account",
+                               "value":552
+                            },
+                            {
+                               "label":"[ 1111000002 ] Fawry",
+                               "value":249
+                            },
+                            {
+                               "label":"[ 1111000003 ] Masary",
+                               "value":193
+                            },
+                            {
+                               "label":"[ 1111000004 ] Cheque under settlement",
+                               "value":553
+                            }
+                         ]
+                      },
+                      {
+                         "label":"[ 1111000000 ] Petty Cash",
+                         "value":291,
+                         "children":[
+                            {
+                               "label":"[ 1111100000 ] Petty Cash - Ahmed Shoki",
+                               "value":225,
+                               "children":[
+ 
+                               ]
+                            },
+                            {
+                               "label":"[ 1111100000 ] Petty Cash - Hassan Sayed",
+                               "value":339,
+                               "children":[
+ 
+                               ]
+                            }
+                         ]
+                      },
+                      {
+                         "label":"[ 1110000001 ] Cash on Hand (EGP)",
+                         "value":122
+                      },
+                      {
+                         "label":"[ 1110000002 ] Cash on Hand (USD)",
+                         "value":358
+                      }
+                   ]
+                },
+                {
+                   "label":"[ 1110000000 ] Investments & Deposits \t\t",
+                   "value":554,
+                   "children":[
+                      {
+                         "label":"[ 1111000000 ] Deposits",
+                         "value":250,
+                         "children":[
+ 
+                         ]
+                      },
+                      {
+                         "label":"[ 1111000000 ] Investments",
+                         "value":251,
+                         "children":[
+ 
+                         ]
+                      }
+                   ]
+                },
+                {
+                   "label":"[ 1110000000 ] Accounts Receivable",
+                   "value":555,
+                   "children":[
+                      {
+                         "label":"[ 1111000000 ] Prepaid Expenses & Other Receivables",
+                         "value":90,
+                         "children":[
+                            {
+                               "label":"[ 1111000001 ] Prepaid Rent",
+                               "value":252
+                            },
+                            {
+                               "label":"[ 1111000002 ] Staff Loans- Mohamed Ahmed",
+                               "value":9
+                            },
+                            {
+                               "label":"[ 1111000003 ] Other Receivables",
+                               "value":239
+                            }
+                         ]
+                      },
+                      {
+                         "label":"[ 1111000000 ] Trade (Customers)",
+                         "value":194,
+                         "children":[
+                            {
+                               "label":"[ 1111000001 ] Cash customer",
+                               "value":442
+                            },
+                            {
+                               "label":"[ 1111000002 ] Sama Dubai",
+                               "value":91
+                            },
+                            {
+                               "label":"[ 1111000003 ] Egypt Tourism",
+                               "value":103
+                            },
+                            {
+                               "label":"[ 1111000004 ] Mohammed Omar",
+                               "value":15
+                            }
+                         ]
+                      }
+                   ]
+                }
+             ]
+          },
+          {
+             "label":"[ 1100000000 ] Fixed Assets",
+             "value":240,
+             "children":[
+                {
+                   "label":"[ 1110000000 ] Intangible Assets",
+                   "value":513,
+                   "children":[
+                      {
+                         "label":"[ 1111000000 ] Intangible Assets.",
+                         "value":254,
+                         "children":[
+                            {
+                               "label":"[ 1111000001 ] Website",
+                               "value":614
+                            },
+                            {
+                               "label":"[ 1111000002 ] Website- Accumalated Dep.",
+                               "value":495
+                            },
+                            {
+                               "label":"[ 1111000003 ] ERP System",
+                               "value":496
+                            },
+                            {
+                               "label":"[ 1111000004 ] ERP System- Accumalated Dep.",
+                               "value":711
+                            },
+                            {
+                               "label":"[ 1111000005 ] License",
+                               "value":497
+                            },
+                            {
+                               "label":"[ 1111000006 ] License- Accumalated Dep.",
+                               "value":232
+                            },
+                            {
+                               "label":"[ 1111000007 ] Startup Cost",
+                               "value":233
+                            },
+                            {
+                               "label":"[ 1111000008 ] Startup Cost- Accumalated Dep.",
+                               "value":712
+                            }
+                         ]
+                      }
+                   ]
+                },
+                {
+                   "label":"[ 1110000000 ] Tangible Assets",
+                   "value":690,
+                   "children":[
+                      {
+                         "label":"[ 1111000000 ] Decor & Leasehold improvements",
+                         "value":202,
+                         "children":[
+ 
+                         ]
+                      },
+                      {
+                         "label":"[ 1111000000 ] Furniture and Fixtures",
+                         "value":349,
+                         "children":[
+ 
+                         ]
+                      },
+                      {
+                         "label":"[ 1111000000 ] Computers & Network",
+                         "value":514,
+                         "children":[
+ 
+                         ]
+                      },
+                      {
+                         "label":"[ 1111000000 ] Vehicles",
+                         "value":710,
+                         "children":[
+ 
+                         ]
+                      },
+                      {
+                         "label":"[ 1111000000 ] Electronics & Equipments",
+                         "value":730,
+                         "children":[
+ 
+                         ]
+                      }
+                   ]
+                }
+             ]
+          },
+          {
+             "label":"[ 342423 ] Ledger name",
+             "value":406
+          }
+       ]
+    },
+    {
+       "label":"[ 2000000000 ] liabilities\t\t\t\t",
+       "value":222,
+       "children":[
+          {
+             "label":"[ 2100000000 ] Current liabilities",
+             "value":183,
+             "children":[
+                {
+                   "label":"[ 2110000000 ]  Accrued Commissions",
+                   "value":11,
+                   "children":[
+                      {
+                         "label":"[ 2111000000 ] Brokers Commissions",
+                         "value":242,
+                         "children":[
+ 
+                         ]
+                      },
+                      {
+                         "label":"[ 2111000000 ] Staff Commissions",
+                         "value":501,
+                         "children":[
+ 
+                         ]
+                      }
+                   ]
+                },
+                {
+                   "label":"[ 2110000000 ] Other Current liabilities",
+                   "value":12,
+                   "children":[
+                      {
+                         "label":"[ 2111000000 ] Staff Accounts",
+                         "value":243,
+                         "children":[
+ 
+                         ]
+                      },
+                      {
+                         "label":"[ 2111000000 ] Accounts Payable & Accrued Expenses",
+                         "value":652,
+                         "children":[
+ 
+                         ]
+                      }
+                   ]
+                },
+                {
+                   "label":"[ 2110000000 ] Vendors",
+                   "value":498,
+                   "children":[
+                      {
+                         "label":"[ 2111000000 ] Insurance Vendors",
+                         "value":241,
+                         "children":[
+ 
+                         ]
+                      },
+                      {
+                         "label":"[ 2111000000 ] Visas Vendors",
+                         "value":477,
+                         "children":[
+ 
+                         ]
+                      },
+                      {
+                         "label":"[ 2111000000 ] Transportation Vendors",
+                         "value":478,
+                         "children":[
+ 
+                         ]
+                      },
+                      {
+                         "label":"[ 2111000000 ] Hotels Vendors",
+                         "value":499,
+                         "children":[
+ 
+                         ]
+                      },
+                      {
+                         "label":"[ 2111000000 ] Others Vendors",
+                         "value":500,
+                         "children":[
+                            {
+                               "label":"[ 2111000001 ] Ahmed Omar",
+                               "value":657
+                            }
+                         ]
+                      },
+                      {
+                         "label":"[ 2111000000 ] Tickets Vendors",
+                         "value":651,
+                         "children":[
+ 
+                         ]
+                      }
+                   ]
+                }
+             ]
+          },
+          {
+             "label":"[ 2100000000 ] Long Term Liabilities",
+             "value":713,
+             "children":[
+                {
+                   "label":"[ 2110000000 ] Loans and advances",
+                   "value":13,
+                   "children":[
+ 
+                   ]
+                },
+                {
+                   "label":"[ 2110000000 ] Other Long Term Liabilities",
+                   "value":203,
+                   "children":[
+ 
+                   ]
+                }
+             ]
+          }
+       ]
+    },
+    {
+       "label":"[ 3000000000 ] Owner's Equity",
+       "value":14,
+       "children":[
+          {
+             "label":"[ 5100000000 ] Capital Accounts",
+             "value":204,
+             "children":[
+ 
+             ]
+          }
+       ]
+    },
+    {
+       "label":"[ 4000000000 ] Revenues\t\t\t\t",
+       "value":51,
+       "children":[
+          {
+             "label":"[ 4100000000 ] Operating Revenues",
+             "value":375,
+             "children":[
+                {
+                   "label":"[ 4110000000 ] Visas  Revenues",
+                   "value":95,
+                   "children":[
+                      {
+                         "label":"[ 4111000000 ] Visas Sales Individual (Retails)",
+                         "value":503,
+                         "children":[
+ 
+                         ]
+                      },
+                      {
+                         "label":"[ 4111000000 ] Visas Sales Corporate",
+                         "value":654,
+                         "children":[
+ 
+                         ]
+                      }
+                   ]
+                },
+                {
+                   "label":"[ 4110000000 ] Accommodation  Revenues",
+                   "value":444,
+                   "children":[
+                      {
+                         "label":"[ 4111000000 ] Accommodation Sales Corporate",
+                         "value":205,
+                         "children":[
+ 
+                         ]
+                      },
+                      {
+                         "label":"[ 4111000000 ] Accommodation Sales Individual (Retails)",
+                         "value":655,
+                         "children":[
+ 
+                         ]
+                      }
+                   ]
+                },
+                {
+                   "label":"[ 4110000000 ] Tourism  Revenues",
+                   "value":504,
+                   "children":[
+ 
+                   ]
+                },
+                {
+                   "label":"[ 4110000000 ] Tickets  Revenues",
+                   "value":653,
+                   "children":[
+                      {
+                         "label":"[ 4111000000 ] Tickets Sales Corporate",
+                         "value":502,
+                         "children":[
+ 
+                         ]
+                      },
+                      {
+                         "label":"[ 4111000000 ] Tickets Sales Individual (Retails)",
+                         "value":750,
+                         "children":[
+ 
+                         ]
+                      }
+                   ]
+                },
+                {
+                   "label":"[ 4110000000 ] Other Oprating  Revenues",
+                   "value":656,
+                   "children":[
+ 
+                   ]
+                }
+             ]
+          },
+          {
+             "label":"[ 4100000000 ] Non-operating Revenues",
+             "value":376,
+             "children":[
+ 
+             ]
+          }
+       ]
+    },
+    {
+       "label":"[ 5000000000 ] Expenses",
+       "value":223,
+       "children":[
+ 
+       ]
+    }
+ ]

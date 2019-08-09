@@ -1,0 +1,42 @@
+ng-select2{
+    height: 200px;
+}
+
+#head{
+    display:flex;
+    flex-direction: row;
+}
+
+#head .buttons{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.chartOfAccounts{
+    display:flex;
+    flex-direction: row;
+}
+
+#firstLevel a{
+    display:flex;
+    flex-direction: row;
+    color: red;
+    text-decoration-line: none;
+}
+
+nav ol{
+    background-color: rgba(0,0,0,0);
+}
+
+.invalid-feedback{
+    color: red;
+    display: block
+}
+
+  .jumbotron{
+      padding: 1%;
+      margin-top: 1%;
+      margin-bottom: 1%;
+
+  }
